@@ -82,6 +82,9 @@ public class Main {
         System.out.printf("\nsorted\n");
         list.stream().sorted().forEach(x -> System.out.println(x));
 
+        Test test=new Test();
+        test.print();
+
 
 
 
